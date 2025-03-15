@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "description": "URL Parameter Watcher is a lightweight and efficient plugin for Bubble that detects changes in a specified URL parameter in real time.\n\nWhenever the monitored parameter changes, the plugin triggers an event and provides both the previous and new values, allowing you to create dynamic workflows based on URL updates.",
+    "image": "//meta-q.cdn.bubble.io/f1742051350606x833070367259242400/image.png",
+    "license": "open_source",
+    "name": "URL Param Watcher"
+}

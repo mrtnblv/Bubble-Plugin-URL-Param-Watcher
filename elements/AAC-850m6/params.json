@@ -1,0 +1,45 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "URL Param Watcher",
+    "events": {
+        "AAE": {
+            "caption": "has a change ",
+            "name": "param_change"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "URL Param",
+            "doc": "The name of the URL parameter to monitor for changes.",
+            "editor": "DynamicValue",
+            "name": "url_param",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-link",
+    "platform_type": "web",
+    "states": {
+        "AAF": {
+            "caption": "previous_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "previous_value",
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "current_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_value",
+            "value": "text"
+        }
+    }
+}
